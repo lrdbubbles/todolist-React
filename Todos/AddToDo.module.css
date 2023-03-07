@@ -1,0 +1,36 @@
+.input {
+  padding: 1rem;
+  margin: 2.5rem auto 1rem;
+  width: 90%;
+  max-width: 45rem;
+}
+
+.input label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 1.6rem;
+}
+
+.input input {
+  display: block;
+  width: 99%;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+  line-height: 1.5rem;
+  border: 2px solid #172a3a;
+  border-radius: 7px;
+  outline: none;
+}
+
+.input input:focus {
+  border-color: #945d5e;
+}
+
+.input.invalid label {
+  color: #db504a;
+}
+
+.input.invalid input {
+  border-color: #db504a;
+}
